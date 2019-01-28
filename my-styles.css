@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: monospace;
+	font-size: 50px;
+	margin: -10px;
+}
+
+h3 {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+button { 
+	background-color: lightgray;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 2px 1px 5px gray;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+button:focus {
+	outline: none;
+}
+
+#canvas {
+    margin: 0 auto;
+    width: 640px;
+}
